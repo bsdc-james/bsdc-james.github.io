@@ -1,5 +1,5 @@
 body {
-  background: url(images/man.jpg);
+  background: url(man.jpg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -22,7 +22,7 @@ body {
   border-radius: 20px;
 }
 .topBar {
-  background: url(images/moderator_stark.png);
+  background: url(moderator_stark.png);
   background-size: cover;
   background-repeat: no-repeat;
   font-size: 15px;
