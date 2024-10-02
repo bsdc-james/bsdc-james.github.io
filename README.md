@@ -1,1 +1,0 @@
-# bsdc-james.github.io
