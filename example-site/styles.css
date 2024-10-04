@@ -1,107 +1,53 @@
-body {
-    background: url(/images/man.jpg);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+body{
     background-color: black;
-    align-items: center;
-    align-content: center;
-    text-align: center;
-    font-family: "Courier New", Courier, monospace;
-    background-attachment: fixed;
-  }
-  
-  .infoBox {
-    background-color: rgba(255, 255, 255, 0.5);
-    width: 600px;
-    border: 2px solid rgb(0, 0, 0);
-    text-align: center;
-    font-family: "Courier New", Courier, monospace;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 20px;
-  }
-  .topBar {
-    background: url(/images/moderator_stark.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    font-size: 15px;
-    text-shadow: 4px 4px 0 #000, -4px -4px 0 #000, 4px -4px 0 #000,
-      -4px 4px 0 #000, 0px 4px 0 #000, 4px 0px 0 #000, 0px -4px 0 #000,
-      -4px 0px 0 #000;
-    color: white;
-    border: 2px solid rgb(0, 0, 0);
-    width: 800px;
-    height: 150px;
-    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-    border-radius: 20px;
-  }
-  .break {
-    height: 10px;
-  }
-  .div04 {
-    height: 100px;
-  }
-  .discordBox {
-    background-color: rgba(255, 255, 255, 0.5);
-    width: 310px;
-    height: 310px;
-    border: 2px solid rgb(0, 0, 0);
-    text-align: center;
-    font-family: "Courier New", Courier, monospace;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 20px;
-  }
-  
-  .button {
-    display: inline-block;
-    border-radius: 4px;
-    background-color: #000000;
-    border: solid 2px;
-    border-color: #ffffff;
-    color: #ffffff;
-    text-align: center;
-    font-size: 18px;
-    padding: 5px;
-    width: 300px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+
+.topNavBar{
+    background-color: rgb(26, 25, 25);
+    height: 75px;
+}
+
+table {
+    position:absolute;
+    border-collapse: collapse;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    letter-spacing: px;
+    height:75px;
+    width: 50%;
+    right: 0px;
+    top: 0%;
+    color:white;
+    
+    
   }
-  
-  .button:hover {
-    background-color: white;
-  }
-  
-  .button span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-  }
-  
-  .button span:after {
-    content: "\00bb";
-    color: black;
-    font-size: 30px;
+
+th{
+    border: 2px solid rgb(39, 37, 37);
+    width: 100px;
+}
+
+.topbarimage{
+    width: 75px;
+    height: 75px;
+}
+
+.topbartarkson1{
     position: absolute;
-    opacity: 0;
-    top: -43%;
-    right: -20px;
-    transition: 0.5s;
-  }
-  
-  .button:hover span {
-    padding-right: 25px;
-    color: black;
-  }
-  
-  .button:hover span:after {
-    opacity: 1;
-    right: 0;
-  }
-  
+    top:1%;
+    left:90px;
+    color:white;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.topbartarkson2{
+    position: absolute;
+    top:4.5%;
+    left:90px;
+    color:white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
