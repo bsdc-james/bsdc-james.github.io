@@ -1,0 +1,64 @@
+body{
+    background-color: black;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+
+.topNavBar{
+    background-color: rgb(26, 25, 25);
+    height: 75px;
+}
+
+table {
+    position:absolute;
+    border-collapse: collapse;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    letter-spacing: px;
+    height:75px;
+    width: 50%;
+    right: 0px;
+    top: 0%;
+    color:white;
+    
+    
+  }
+
+th{
+    border: 2px solid rgb(39, 37, 37);
+    width: 100px;
+    transition: all 0.5s;
+}
+
+th:hover{
+    background-color: rgb(80, 80, 80);
+    cursor: pointer;
+}
+
+.topbarimage{
+    width: 75px;
+    height: 75px;
+}
+
+.topbarimage:hover{
+    cursor: pointer;
+}
+
+.topbartarkson1{
+    position: absolute;
+    top:1%;
+    left:90px;
+    color:white;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.topbartarkson2{
+    position: absolute;
+    top:4.5%;
+    left:90px;
+    color:white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+

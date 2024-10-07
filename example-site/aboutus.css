@@ -28,11 +28,21 @@ table {
 th{
     border: 2px solid rgb(39, 37, 37);
     width: 100px;
+    transition: all 0.5s;
+}
+
+th:hover{
+    background-color: rgb(80, 80, 80);
+    cursor: pointer;
 }
 
 .topbarimage{
     width: 75px;
     height: 75px;
+}
+
+.topbarimage:hover{
+    cursor: pointer;
 }
 
 .topbartarkson1{
@@ -51,3 +61,4 @@ th{
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
 }
+
