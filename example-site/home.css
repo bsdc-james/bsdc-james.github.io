@@ -19,12 +19,18 @@ body{
     background-size: contain;
 }
 
+.mainbodyimage{
+    width:50%;
+    height:50%;
+}
+
 .infoBox{
     position: absolute;
-    width: 31%;
+    width: 29.5%;
     height: 100%;
-    background-color: yellow;
     right: 0%;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 table {
@@ -34,14 +40,13 @@ table {
     font-size: 25px;
     letter-spacing: px;
     height:75px;
-    width: 30%;
+    width: 29.5%;
     right: 0px;
     top: 0%;
     color:white;
   }
 
 th{
-    border: 2px solid rgb(39, 37, 37);
     width: 200px;
     transition: all 0.5s;
 }
