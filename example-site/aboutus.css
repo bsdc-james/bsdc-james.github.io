@@ -17,17 +17,14 @@ table {
     font-size: 25px;
     letter-spacing: px;
     height:75px;
-    width: 50%;
+    width: 29.5%;
     right: 0px;
     top: 0%;
     color:white;
-    
-    
   }
 
 th{
-    border: 2px solid rgb(39, 37, 37);
-    width: 100px;
+    width: 200px;
     transition: all 0.5s;
 }
 
