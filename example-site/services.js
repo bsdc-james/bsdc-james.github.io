@@ -22,11 +22,11 @@ var navBarLogo = document.getElementById("navBarLogo")
 navBarLogo.addEventListener('click', homePageClickHandler)
 
 var navBarAbout = document.getElementById("navBarAbout")
-navBarLogo.addEventListener('click', aboutPageClickHandler)     
+navBarAbout.addEventListener('click', aboutPageClickHandler)
 
-var navBarLogo = document.getElementById("navBarServices")
-navBarLogo.addEventListener('click', servicesPageClickHandler)
+var navBarServices = document.getElementById("navBarServices")
+navBarServices.addEventListener('click', servicesPageClickHandler)
 
-var navBarLogo = document.getElementById("navBarContact")
-navBarLogo.addEventListener('click', contactPageClickHandler)
+var navBarContact = document.getElementById("navBarContact")
+navBarContact.addEventListener('click', contactPageClickHandler)
 
