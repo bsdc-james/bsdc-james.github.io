@@ -18,6 +18,8 @@ function contactPageClickHandler(){
     window.location.replace("contactus.html");
 }
 
+console.log("i hate js get this shit off the face of the earth")
+
 var navBarLogo = document.getElementById("navBarLogo")
 navBarLogo.addEventListener('click', homePageClickHandler)
 

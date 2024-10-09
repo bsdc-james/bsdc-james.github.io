@@ -13,6 +13,8 @@ function servicesPageClickHandler(){
     window.location.replace("services.html");
 }
 
+console.log("i hate js get this shit off the face of the earth")
+
 function contactPageClickHandler(){
     console.log("Detected click on 'navBarContact'")
     window.location.replace("contactus.html");

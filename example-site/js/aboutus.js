@@ -1,22 +1,24 @@
 function homePageClickHandler(){
     console.log("Detected click on 'navBarLogo'")
-    window.location.replace("home.html");
+    window.location.replace("/example-site/home.html");
 }
 
 function aboutPageClickHandler(){
     console.log("Detected click on 'navBarAbout'")
-    window.location.replace("aboutus.html");
+    window.location.replace("/example-site/aboutus.html");
 }
 
 function servicesPageClickHandler(){
     console.log("Detected click on 'navBarServices'")
-    window.location.replace("services.html");
+    window.location.replace("/example-site/services.html");
 }
 
 function contactPageClickHandler(){
     console.log("Detected click on 'navBarContact'")
-    window.location.replace("contactus.html");
+    window.location.replace("/example-site/contactus.html");
 }
+
+console.log("i hate js get this shit off the face of the earth")
 
 var navBarLogo = document.getElementById("navBarLogo")
 navBarLogo.addEventListener('click', homePageClickHandler)

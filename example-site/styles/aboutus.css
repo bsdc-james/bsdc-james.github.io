@@ -10,29 +10,6 @@ body{
     height: 75px;
 }
 
-.mainBody{
-    position: absolute;
-    height: 92%;
-    width: 70%;
-    background: url(/images/SSAgent.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.mainbodyimage{
-    width:50%;
-    height:50%;
-}
-
-.infoBox{
-    position: absolute;
-    width: 32%;
-    height: 90%;
-    right: 0%;
-    color:white;
-    font-family: 'Courier New', Courier, monospace;
-}
-
 table {
     position:absolute;
     border-collapse: collapse;
@@ -40,7 +17,7 @@ table {
     font-size: 25px;
     letter-spacing: px;
     height:75px;
-    width: 29.5%;
+    width: 32%;
     right: 0px;
     top: 0%;
     color:white;
