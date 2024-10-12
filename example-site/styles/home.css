@@ -13,10 +13,10 @@ body{
 .mainBody{
     position: absolute;
     height: 92%;
-    width: 70%;
+    width: 68%;
     background: url(/images/SSAgent.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size:cover;
 }
 
 .mainbodyimage{
