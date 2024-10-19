@@ -82,15 +82,11 @@ th:hover{
     font-family: 'Courier New', Courier, monospace;
 }
 
-.test{
-    background-color: black;
-}
-
 .hiddenBox{
     position: absolute;
     right: 0%;
     bottom: 0%;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, 0);
     width: 25%;
     height: 5%;
 }
