@@ -18,6 +18,11 @@ function contactPageClickHandler(){
     window.location.replace("contactus.html");
 }
 
+function hiddenBoxClickHandler(){
+    console.log("Detected click on 'hiddenBox'")
+    window.location.replace("/images/zamn.png");
+}
+
 console.log("i hate js get this shit off the face of the earth")
 
 var navBarLogo = document.getElementById("navBarLogo")
@@ -31,4 +36,8 @@ navBarServices.addEventListener('click', servicesPageClickHandler)
 
 var navBarContact = document.getElementById("navBarContact")
 navBarContact.addEventListener('click', contactPageClickHandler)
+
+var hiddenBox = document.getElementById("hiddenBox")
+hiddenBox.addEventListener('click', hiddenBoxClickHandler)
+
 
