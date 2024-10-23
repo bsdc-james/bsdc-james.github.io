@@ -1,5 +1,5 @@
 body {
-    background: url(images/jonkler.gif);
-    background-size: contain;
-    background-position: center;
+    background: url(/images/jonkler.gif);
+    background-size:2%;
+    background-repeat:repeat;
 }
