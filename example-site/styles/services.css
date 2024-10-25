@@ -11,122 +11,95 @@ body{
     height: 75px;
 }
 
+.navBarContainer{
+    position: absolute;
+    display:flex;
+    height: 75px;
+    top:0%;
+    width:27%;
+    right:0%;
+}
+
+.navBarButton{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    height: 100%;
+    width: 100%;
+    transition: 0.2s;
+}
+
+.navBarButton:hover{
+    background-color: rgb(41, 40, 40);
+    cursor: pointer;
+}
+
+.navBarButtonWIP{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    height: 100%;
+    width: 100%;
+    transition: 0.2s;
+}
+
+.navBarButtonWIP:hover{
+    background-color: rgb(54, 2, 2);
+    cursor:not-allowed;
+}
+
+.navBarButtonText{
+    color: white;
+    top: 40%;
+    bottom: 40%;
+    text-align: center;
+    line-height: 75px;
+}
+
 .mainBody{
     position: absolute;
     width: 100%;
     height: 92%;
 }
 
+.breakS{
+    height: 10px;
+}
+
+.breakM{
+    height: 50px;
+}
+
+.breakL{
+    height: 100px;
+}
+
+.breakXL{
+    height: 200px;
+}
+
 .infoBody{
-    position: absolute;
-    top:5%;
-    left: 32.5%;
-    width:30%;
-    height: 40%;
+    text-align: center;
+    width:34%;
     background-color: rgb(26, 25, 25);
     border: solid 2px rgb(39, 38, 38);
-    padding-inline: 2%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
     color:white;
 }
 
-.VCenter {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 0%;
-    right:0%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+.product{
+    text-align: center;
+    width:34%;
+    height: 15px;
+    background-color: rgb(26, 25, 25);
+    border: solid 2px rgb(39, 38, 38);
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
     color:white;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: x-large;
-  }
-  
-
-.productButton1{
-    position: absolute;
-    left: 12.5%;
-    top: 50%;
-    width: 75%;
-    height: 50px;
-    background-color: rgb(26, 25, 25);
-    border: solid 2px rgb(39, 38, 38);
-    transition: all 0.5s;
+    transition: 0.2s;
 }
 
-.productButton1:hover{
-    background-color: rgb(80, 80, 80);
-    cursor: pointer;
-}
-
-.productButton2{
-    position: absolute;
-    left: 12.5%;
-    top: 60%;
-    width: 75%;
-    height: 50px;
-    background-color: rgb(26, 25, 25);
-    border: solid 2px rgb(39, 38, 38);
-    transition: all 0.5s;
-}
-
-.productButton2:hover{
-    background-color: rgb(80, 80, 80);
-    cursor: pointer;
-}
-
-.productButton3{
-    position: absolute;
-    left: 12.5%;
-    top: 70%;
-    width: 75%;
-    height: 50px;
-    background-color: rgb(26, 25, 25);
-    border: solid 2px rgb(39, 38, 38);
-    transition: all 0.5s;
-}
-
-.productButton3:hover{
-    background-color: rgb(80, 80, 80);
-    cursor: pointer;
-}
-
-.productButton4{
-    position: absolute;
-    left: 12.5%;
-    top: 80%;
-    width: 75%;
-    height: 50px;
-    background-color: rgb(26, 25, 25);
-    border: solid 2px rgb(39, 38, 38);
-    transition: all 0.5s;
-}
-
-.productButton4:hover{
-    background-color: rgb(80, 80, 80);
-    cursor: pointer;
-}
-
-table {
-    position:absolute;
-    border-collapse: collapse;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 25px;
-    letter-spacing: px;
-    height:75px;
-    width: 32%;
-    right: 0px;
-    top: 0%;
-    color:white;
-  }
-
-th{
-    width: 200px;
-    transition: all 0.5s;
-}
-
-th:hover{
-    background-color: rgb(80, 80, 80);
+.product:hover{
+    background-color: rgb(44, 43, 43);
     cursor: pointer;
 }
 
