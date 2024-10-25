@@ -10,6 +10,49 @@ body{
     height: 75px;
 }
 
+.navBarContainer{
+    position: absolute;
+    display:flex;
+    height: 75px;
+    top:0%;
+    width:27%;
+    right:0%;
+}
+
+.navBarButton{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    height: 100%;
+    width: 100%;
+    transition: 0.2s;
+}
+
+.navBarButton:hover{
+    background-color: rgb(41, 40, 40);
+    cursor: pointer;
+}
+
+.navBarButtonWIP{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    height: 100%;
+    width: 100%;
+    transition: 0.2s;
+}
+
+.navBarButtonWIP:hover{
+    background-color: rgb(54, 2, 2);
+    cursor:not-allowed;
+}
+
+.navBarButtonText{
+    color: white;
+    top: 40%;
+    bottom: 40%;
+    text-align: center;
+    line-height: 75px;
+}
+
 .mainBody{
     position: absolute;
     height: 92%;
