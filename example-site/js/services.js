@@ -1,3 +1,14 @@
+var PIOpen = false
+var PIIOpen = false
+var PIIIOpen = false
+var PVIOpen = false 
+
+console.log("'PIOpen' declared as",PIOpen)
+console.log("'PIIOpen' declared as",PIIOpen)
+console.log("'PIIIOpen' declared as",PIIIOpen)
+console.log("'PVIOpen' declared as",PVIOpen)
+
+
 function homePageClickHandler(){
     console.log("Detected click on 'navBarLogo'")
     window.location.replace("home.html");
@@ -25,22 +36,78 @@ function hiddenBoxClickHandler(){
 
 function productIClickHandler(){
     console.log("Click detected on 'ProductI'")
-    document.getElementById("ProductI").setAttribute("style","height:100px");
+    if (PIOpen == false) {
+        console.log("OpeningBox ProductI")
+        document.getElementById("ProductI").setAttribute("style","height:120px");
+        console.log("StyleChangeSuccess")
+        document.getElementById("productDescI").setAttribute("style","display:block");
+        console.log("productDescI is Visible.")
+        PIOpen = true
+        console.log("PIOpen declared as",PIOpen)
+    } else {
+        console.log("ClosingBox ProductI")
+        document.getElementById("ProductI").setAttribute("style","height:15px");
+        console.log("StyleChangeSuccess")
+        document.getElementById("productDescI").setAttribute("style","display:none");
+        console.log("productDescI is not Visible.")
+        PIOpen = false
+        console.log("PIOpen declared as",PIOpen)
+    }
 }
 
 function productIIClickHandler(){
     console.log("Click detected on 'ProductII'")
-    document.getElementById("ProductII").setAttribute("style","height:100px");
+    if (PIIOpen == false) {
+        console.log("OpeningBox ProductII")
+        document.getElementById("ProductII").setAttribute("style","height:150px");
+        console.log("StyleChangeSuccess")
+        document.getElementById("productDescII").setAttribute("style","display:block");
+        console.log("productDescI is Visible.")
+        PIIOpen = true
+        console.log("PIIOpen declared as",PIIOpen)
+    } else {
+        console.log("ClosingBox ProductII")
+        document.getElementById("ProductII").setAttribute("style","height:15px");
+        console.log("StyleChangeSuccess")
+        document.getElementById("productDescII").setAttribute("style","display:none");
+        console.log("productDescI is not Visible.")
+        PIIOpen = false
+        console.log("PIIOpen declared as",PIIOpen)
+    }
 }
 
 function productIIIClickHandler(){
     console.log("Click detected on 'ProductIII'")
-    document.getElementById("ProductIII").setAttribute("style","height:100px");
+    if (PIIIOpen == false) {
+        console.log("OpeningBox ProductIII")
+        document.getElementById("ProductIII").setAttribute("style","height:100px");
+        console.log("StyleChangeSuccess")
+        PIIIOpen = true
+        console.log("PIIIOpen declared as",PIIIOpen)
+    } else {
+        console.log("ClosingBox ProductIII")
+        document.getElementById("ProductIII").setAttribute("style","height:15px");
+        console.log("StyleChangeSuccess")
+        PIIIOpen = false
+        console.log("PIIIOpen declared as",PIIIOpen)
+    }
 }
 
 function productVIClickHandler(){
     console.log("Click detected on 'ProductVI'")
-    document.getElementById("ProductVI").setAttribute("style","height:100px");
+    if (PVIOpen == false) {
+        console.log("OpeningBox ProductVI")
+        document.getElementById("ProductVI").setAttribute("style","height:100px");
+        console.log("StyleChangeSuccess")
+        PVIOpen = true
+        console.log("PVIOpen declared as",PVIOpen)
+    } else {
+        console.log("ClosingBox ProductVI")
+        document.getElementById("ProductVI").setAttribute("style","height:15px");
+        console.log("StyleChangeSuccess")
+        PVIOpen = false
+        console.log("PVIOpen declared as",PVIOpen)
+    }
 }
 
 console.log("i hate js get this shit off the face of the earth")

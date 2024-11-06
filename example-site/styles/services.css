@@ -87,6 +87,7 @@ body{
 }
 
 .product{
+    display: block;
     text-align: center;
     width:34%;
     height: 15px;
@@ -102,6 +103,7 @@ body{
     background-color: rgb(44, 43, 43);
     cursor: pointer;
 }
+
 
 .topbarimage{
     width: 75px;
