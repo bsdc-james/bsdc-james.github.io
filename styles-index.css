@@ -2,15 +2,15 @@
   font-family: 'Courier New', Courier, monospace;
 }
 
-.card-group{
+.card{
   width:75%;
 }
 
 .card-img-top{
-  height: 200px;
-  width:max-content;
+  width: min-content;
+  height: 13rem;
 }
 
 .break{
-  height: 75px;
+  height: 30px;
 }
