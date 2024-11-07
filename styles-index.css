@@ -1,8 +1,9 @@
 body {
-  background-size: contain;
+  margin: 0%;
+  background-size:contain;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   align-items: center;
   align-content: center;
   text-align: center;
@@ -10,111 +11,41 @@ body {
   background-attachment: fixed;
 }
 
-.infoBoxT {
-  background-color: rgba(56, 56, 56, 0.5);
-  color :white;
-  width: 600px;
-  border: 2px solid rgb(255, 255, 255);
-  text-align: center;
-  font-family: "Courier New", Courier, monospace;
-  padding-left: 20px;
-  padding-right: 20px;
-  border-radius: 20px;
+.navBar{
+  background-color: rgb(15, 15, 15);
+  height: 75px;
 }
 
-.infoBox {
-  background-color: rgba(56, 56, 56, 0.5);
-  color :white;
-  width: 600px;
-  border: 2px solid rgb(255, 255, 255);
-  text-align: center;
-  font-family: "Courier New", Courier, monospace;
-  padding-left: 20px;
-  padding-right: 20px;
-  border-radius: 20px;
-}
-.topBar {
-  background: url(images/moderator_stark.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  font-size: 15px;
-  text-shadow: 4px 4px 0 #000, -4px -4px 0 #000, 4px -4px 0 #000,
-    -4px 4px 0 #000, 0px 4px 0 #000, 4px 0px 0 #000, 0px -4px 0 #000,
-    -4px 0px 0 #000;
-  color: white;
-  border: 2px solid rgb(0, 0, 0);
-  width: 800px;
-  height: 150px;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  border-radius: 20px;
-}
-.break {
-  height: 20px;
-}
-.div04 {
-  height: 100px;
-  color: white;
-}
-.discordBox {
-  background-color: rgba(255, 255, 255, 0.5);
-  width: 310px;
-  height: 310px;
-  border: 2px solid rgb(0, 0, 0);
-  text-align: center;
-  font-family: "Courier New", Courier, monospace;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-radius: 20px;
-}
-
-.button {
-  display: inline-block;
-  border-radius: 4px;
-  background-color: #000000;
-  border: solid 2px;
-  border-color: #ffffff;
-  color: #ffffff;
-  text-align: center;
-  font-size: 18px;
-  padding: 5px;
-  width: 300px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
-  font-family: 'Courier New', Courier, monospace;
-}
-
-.button:hover {
-  background-color: white;
-  transform: scale(1.1);
-}
-
-.button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.button span:after {
-  content: "\00bb";
-  color: black;
-  font-size: 30px;
+.navBarTContainer{
   position: absolute;
-  opacity: 0;
-  top: -43%;
-  right: -20px;
-  transition: 0.5s;
+  display:flex;
+  height: 75px;
+  top:0%;
+  width:60%;
+  left:0%;
 }
 
-.button:hover span {
-  padding-right: 25px;
-  color: black;
+.navBarLogo{
+  background-image: url(/images/liesicon.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 6.75%;
 }
 
-.button:hover span:after {
-  opacity: 1;
-  right: 0;
+.navBarTitle{
+  color: white;
+  height: 100%;
+  width: 10%;
+  line-height: 75px;
+  font-size: 50px;
+}
+
+.navBarCContainer{
+  position: absolute;
+  display:flex;
+  height: 75px;
+  top:0%;
+  width:40%;
+  right:0%;
 }
