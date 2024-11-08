@@ -1,2 +1,2 @@
-console.log("what the actual fuck do i do with js");
+console.log("I DESPISE JS WIPE IT OFF THE FACE OF THE EARTH RAHHHHHHHH");
 
