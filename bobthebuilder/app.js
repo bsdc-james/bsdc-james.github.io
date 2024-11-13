@@ -1,10 +1,19 @@
 console.log("I HATE JAVASCRIPT IT SHOULD BE WIPED OFF THFACE OF THE REATHC REAHGGGGG")
 
+let switchbob = false;
 
-const bob = document.getElementById("box")
-console.log(bob.innerHTML)
-
-function bobsaysbye(){
-    if bob.innerHTML = `<h1 id="text" class="text">bob is going to cry<br>why is bob the builder in my college class</h1>
-    <img src="/images/depressobob.png" alt="">;`
+function bobClickHandler(){
+    console.log("Detected click on 'bob'")
+    if (switchbob){
+        bob.innerHTML = `<h1 id="text" class="text">bob is now in minecraft<br>what have you done</h1>
+        <img src="/images/bobminecraft.png" alt="" />`;
+    } else {
+        bob.innerHTML = `<h1 id="text" class="text">bob is going to cry<br>be nice</h1>
+        <img src="/images/depressobob.png" alt="" />`;
+    }
+    switchbob = !switchbob;
 }
+
+var bob = document.getElementById("box")
+console.log(bob.innerHTML)
+bob.addEventListener('click', bobClickHandler)
