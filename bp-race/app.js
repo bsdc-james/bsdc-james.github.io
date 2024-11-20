@@ -1,1 +1,0 @@
-console.log("I HATE JS WIPE THIS OFF THE FACE OF THE EARTH")

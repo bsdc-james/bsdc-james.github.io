@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+table{
+    border:1px solid red;
+    padding:2px;
+}
+
+tr{
+    border: 1px solid green;
+}
+td{
+    padding:5px;
+    border:1px solid blue;
+}
+
+th{
+    padding:5px;
+    border:1px solid pink;
+}
