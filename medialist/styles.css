@@ -10,6 +10,13 @@ html, body{
     height: 100%;
 }
 
+.break{
+    height: 5%;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
 .topBarContainer{
     height: 10%;
     width: 100%;
@@ -17,4 +24,19 @@ html, body{
     justify-content: center;
     text-align: center;
     background-color: rgb(34, 34, 34);
+}
+
+.mediaContainer{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    background-color: rgb(75, 75, 75);
 }
