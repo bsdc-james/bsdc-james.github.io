@@ -1,5 +1,6 @@
 const medias = [
   { src: "/media/1984.mp4", type: "vid" },
+  { src: "/media/1984transition2.mp4", type: "vid" },
   { src: "/media/pptheme.mp3", type: "snd" },
   { src: "/media/daveygif.gif", type: "img" },
   { src: "/media/jonkler.gif", type: "img" },
