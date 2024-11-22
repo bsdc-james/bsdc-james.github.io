@@ -11,13 +11,15 @@ html, body{
 }
 
 .break{
-    height: 5%;
+    height: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
     align-content: center;
     justify-content: center;
     text-align: center;
 }
 
-.topBarContainer{
+.topBarContainer{   
     height: 10%;
     width: 100%;
     align-content: center;
@@ -38,5 +40,21 @@ html, body{
     align-self: center;
     justify-self: center;
     text-align: center;
-    background-color: rgb(75, 75, 75);
+}
+
+.card{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+video {
+    object-fit: cover;
+    width: 100%;
+}
+
+audio{
+    object-fit: cover;
+    width: 100%;
 }
