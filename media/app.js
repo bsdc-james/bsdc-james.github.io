@@ -38,7 +38,7 @@ for (i = 0; i < medias.length; i++) {
   if (medias[i].type == "vid") {
     const card = document.createElement("div");
     card.style ="width:90%;margin-left:auto;margin-right:auto;";
-    card.innerHTML = `<div class="card"><video src="https://bsdc-james.github.io/media/1984.mp4" controls playsinline>ur browser dont support html video<br /><br />peasant</video><div class="card-body"><p class="card-text">https://bsdc-james.github.io${medias[i].src}</p></div></div>`;
+    card.innerHTML = `<div class="card"><video src="https://bsdc-james.github.io${medias[i].src}" controls playsinline>ur browser dont support html video<br /><br />peasant</video><div class="card-body"><p class="card-text">https://bsdc-james.github.io${medias[i].src}</p></div></div>`;
     container.appendChild(card);
     const breakdiv = document.createElement("div");
     breakdiv.className = "break";
