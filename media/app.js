@@ -28,6 +28,8 @@ const medias = [
   { src: "/media/tomkinkybutagif.gif", type: "img" },
   { src: "/media/true_love.gif", type: "img" },
   { src: "/media/zamn.png", type: "img" },
+  { src: "/media/discordicon.png", type: "img" },
+  { src: "/media/outlookicon.png", type: "img" },
 ];
 console.log("arraylog: ", medias);
 
@@ -37,28 +39,27 @@ console.log("containerlog: ", container);
 for (i = 0; i < medias.length; i++) {
   if (medias[i].type == "vid") {
     const card = document.createElement("div");
-    card.style ="width:90%;margin-left:auto;margin-right:auto;";
-    card.innerHTML = `<div class="card"><video src="https://bsdc-james.github.io${medias[i].src}" controls playsinline>ur browser dont support html video<br /><br />peasant</video><div class="card-body"><p class="card-text">https://bsdc-james.github.io${medias[i].src}</p></div></div>`;
+    card.style = "width:90%;margin-left:auto;margin-right:auto;";
+    card.innerHTML = `<div class="card"><video src="${medias[i].src}" controls playsinline>ur browser dont support html video<br /><br />peasant</video><div class="card-body"><p class="card-text">https://foggy.live${medias[i].src}</p></div></div>`;
     container.appendChild(card);
     const breakdiv = document.createElement("div");
     breakdiv.className = "break";
     container.appendChild(breakdiv);
-
-
   } else if (medias[i].type == "img") {
     const card = document.createElement("div");
-    card.style ="width:90%;margin-left:auto;margin-right:auto;";
-    card.innerHTML = `<div class="card"><img src="${medias[i].src}" class="card-img-top" alt="..." /><div class="card-body"><p class="card-text">https://bsdc-james.github.io${medias[i].src}</p></div></div>`;
+    card.style = "width:90%;margin-left:auto;margin-right:auto;";
+    card.innerHTML = `<div class="card"><img src="${medias[i].src}" class="card-img-top" alt="..." /><div class="card-body"><p class="card-text">https://foggy.live${medias[i].src}</p></div></div>`;
     container.appendChild(card);
     const breakdiv = document.createElement("div");
     breakdiv.className = "break";
     container.appendChild(breakdiv);
   } else if (medias[i].type == "snd") {
     const card = document.createElement("div");
-    card.style ="width:90%;margin-left:auto;margin-right:auto;";
-    card.innerHTML = `<div class="card"><audio src="${medias[i].src}" controls></audio><div class="card-body"><p class="card-text">https://bsdc-james.github.io${medias[i].src}</p></div></div>`;
+    card.style = "width:90%;margin-left:auto;margin-right:auto;";
+    card.innerHTML = `<div class="card"><audio src="${medias[i].src}" controls></audio><div class="card-body"><p class="card-text">https://foggy.live${medias[i].src}</p></div></div>`;
     container.appendChild(card);
     const breakdiv = document.createElement("div");
     breakdiv.className = "break";
     container.appendChild(breakdiv);
-}}
+  }
+}
