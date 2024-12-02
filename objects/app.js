@@ -14,6 +14,6 @@ console.log(table)
 
 for (i=1;i<people.length;i++) {
     const newThing = document.createElement('tr')
-    newThing.innerHTML = `<td>${people[i].name}</td><td>${people[i].surname}</td><td>${people[i].age}</td>`
+    newThing.innerHTML = `<tr><td>${people[i].name}</td><td>${people[i].surname}</td><td>${people[i].age}</td></tr>`
     table.appendChild(newThing)
 }

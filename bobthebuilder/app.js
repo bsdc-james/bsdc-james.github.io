@@ -6,10 +6,10 @@ function bobClickHandler(){
     console.log("Detected click on 'bob'")
     if (switchbob){
         bob.innerHTML = `<h1 id="text" class="text">bob is now in minecraft<br>what have you done</h1>
-        <img src="/images/bobminecraft.png" alt="" />`;
+        <img src="/media/bobminecraft.png" alt="" />`;
     } else {
         bob.innerHTML = `<h1 id="text" class="text">bob is going to cry<br>be nice</h1>
-        <img src="/images/depressobob.png" alt="" />`;
+        <img src="/media/depressobob.png" alt="" />`;
     }
     switchbob = !switchbob;
 }

@@ -57,7 +57,7 @@ body{
     position: absolute;
     height: 92%;
     width: 68%;
-    background: url(/images/SSAgent.png);
+    background: url(/media/SSAgent.png);
     background-repeat: no-repeat;
     background-size:cover;
 }

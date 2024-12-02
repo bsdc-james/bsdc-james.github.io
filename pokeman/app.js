@@ -4,7 +4,7 @@ const container = document.querySelector('#container')
 
 for (i = 1; i<= 1000; i++) {
     const newimg = document.createElement('img')
-    newimg.src = '/images/pokemonimage.jpg'
+    newimg.src = '/media/pokemonimage.jpg'
     newimg.style = 'width:14.28%;'
     container.appendChild(newimg)
 }
