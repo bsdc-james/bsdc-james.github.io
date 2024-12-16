@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.break {
+    height: 50px;
+    width: 100%;
+
+}
+
+.card {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    
+}
