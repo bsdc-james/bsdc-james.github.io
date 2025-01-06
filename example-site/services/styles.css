@@ -1,0 +1,135 @@
+body{
+    background-color: black;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+
+.topNavBar{
+    background-color: rgb(26, 25, 25);
+    height: 75px;
+}
+
+.navBarContainer{
+    position: absolute;
+    display:flex;
+    height: 75px;
+    top:0%;
+    width:27%;
+    right:0%;
+}
+
+.navBarButton{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    height: 100%;
+    width: 100%;
+    transition: 0.2s;
+}
+
+.navBarButton:hover{
+    background-color: rgb(41, 40, 40);
+    cursor: pointer;
+}
+
+.navBarButtonWIP{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    height: 100%;
+    width: 100%;
+    transition: 0.2s;
+}
+
+.navBarButtonWIP:hover{
+    background-color: rgb(54, 2, 2);
+    cursor:not-allowed;
+}
+
+.navBarButtonText{
+    color: white;
+    top: 40%;
+    bottom: 40%;
+    text-align: center;
+    line-height: 75px;
+}
+
+.mainBody{
+    position: absolute;
+    height: 92%;
+    width: 68%;
+    background: url(/media/SSAgent.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.mainbodyimage{
+    width:50%;
+    height:50%;
+}
+
+.infoBox{
+    position: absolute;
+    width: 32%;
+    height: 90%;
+    right: 0%;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+table {
+    position:absolute;
+    border-collapse: collapse;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    letter-spacing: px;
+    height:75px;
+    width: 32%;
+    right: 0px;
+    top: 0%;
+    color:white;
+  }
+
+th{
+    width: 200px;
+    transition: all 0.5s;
+}
+
+th:hover{
+    background-color: rgb(80, 80, 80);
+    cursor: pointer;
+}
+
+.topbarimage{
+    width: 75px;
+    height: 75px;
+}
+
+.topbarimage:hover{
+    cursor: pointer;
+}
+
+.topbartarkson1{
+    position: absolute;
+    top:1%;
+    left:90px;
+    color:white;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.topbartarkson2{
+    position: absolute;
+    top:4.5%;
+    left:90px;
+    color:white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.hiddenBox{
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    background-color: rgba(255, 255, 255, 0);
+    width: 25%;
+    height: 5%;
+}

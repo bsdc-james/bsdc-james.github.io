@@ -3,7 +3,6 @@ body{
     padding-top: 0px;
     padding-bottom: 0px;
     margin: 0px;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 .topNavBar{
@@ -56,54 +55,49 @@ body{
 
 .mainBody{
     position: absolute;
-    width: 100%;
     height: 92%;
+    width: 68%;
+    background: url(/media/SSAgent.png);
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 
-.breakS{
-    height: 10px;
+.mainbodyimage{
+    width:50%;
+    height:50%;
 }
 
-.breakM{
-    height: 50px;
-}
-
-.breakL{
-    height: 100px;
-}
-
-.breakXL{
-    height: 200px;
-}
-
-.infoBody{
-    text-align: center;
-    width:34%;
-    background-color: rgb(26, 25, 25);
-    border: solid 2px rgb(39, 38, 38);
-    padding-top: 0.5%;
-    padding-bottom: 0.5%;
+.infoBox{
+    position: absolute;
+    width: 32%;
+    height: 90%;
+    right: 0%;
     color:white;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-.product{
-    display: block;
-    text-align: center;
-    width:34%;
-    height: 15px;
-    background-color: rgb(26, 25, 25);
-    border: solid 2px rgb(39, 38, 38);
-    padding-top: 0.5%;
-    padding-bottom: 0.5%;
+table {
+    position:absolute;
+    border-collapse: collapse;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    letter-spacing: px;
+    height:75px;
+    width: 32%;
+    right: 0px;
+    top: 0%;
     color:white;
-    transition: 0.2s;
+  }
+
+th{
+    width: 200px;
+    transition: all 0.5s;
 }
 
-.product:hover{
-    background-color: rgb(44, 43, 43);
+th:hover{
+    background-color: rgb(80, 80, 80);
     cursor: pointer;
 }
-
 
 .topbarimage{
     width: 75px;
@@ -131,3 +125,11 @@ body{
     font-family: 'Courier New', Courier, monospace;
 }
 
+.hiddenBox{
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    background-color: rgba(255, 255, 255, 0);
+    width: 25%;
+    height: 5%;
+}
