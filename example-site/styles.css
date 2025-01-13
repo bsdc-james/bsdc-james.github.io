@@ -1,25 +1,26 @@
-body{
+body {
     background-color: black;
     padding-top: 0px;
     padding-bottom: 0px;
     margin: 0px;
 }
 
-.topNavBar{
+.topNavBar {
     background-color: rgb(26, 25, 25);
     height: 75px;
 }
 
-.navBarContainer{
+.navBarContainer {
     position: absolute;
-    display:flex;
+    display: flex;
     height: 75px;
-    top:0%;
-    width:27%;
-    right:0%;
+    top: 0%;
+    width: 27%;
+    right: 0%;
 }
 
-.navBarButton{
+.navBarButton,
+.navBarButtonWIP {
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
     height: 100%;
@@ -27,25 +28,17 @@ body{
     transition: 0.2s;
 }
 
-.navBarButton:hover{
+.navBarButton:hover {
     background-color: rgb(41, 40, 40);
     cursor: pointer;
 }
 
-.navBarButtonWIP{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 25px;
-    height: 100%;
-    width: 100%;
-    transition: 0.2s;
-}
-
-.navBarButtonWIP:hover{
+.navBarButtonWIP:hover {
     background-color: rgb(54, 2, 2);
-    cursor:not-allowed;
+    cursor: not-allowed;
 }
 
-.navBarButtonText{
+.navBarButtonText {
     color: white;
     top: 40%;
     bottom: 40%;
@@ -53,83 +46,184 @@ body{
     line-height: 75px;
 }
 
-.mainBody{
+.mainBody {
     position: absolute;
     height: 92%;
     width: 68%;
     background: url(/media/SSAgent.png);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
 }
 
-.mainbodyimage{
-    width:50%;
-    height:50%;
+.mainbodyimage {
+    width: 50%;
+    height: 50%;
 }
 
-.infoBox{
+.infoBox {
     position: absolute;
     width: 32%;
     height: 90%;
     right: 0%;
-    color:white;
+    color: white;
     font-family: 'Courier New', Courier, monospace;
 }
 
 table {
-    position:absolute;
+    position: absolute;
     border-collapse: collapse;
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
     letter-spacing: px;
-    height:75px;
+    height: 75px;
     width: 32%;
     right: 0px;
     top: 0%;
-    color:white;
-  }
+    color: white;
+}
 
-th{
+th {
     width: 200px;
     transition: all 0.5s;
 }
 
-th:hover{
+th:hover {
     background-color: rgb(80, 80, 80);
     cursor: pointer;
 }
 
-.topbarimage{
+.topbarimage {
     width: 75px;
     height: 75px;
 }
 
-.topbarimage:hover{
+.topbarimage:hover {
     cursor: pointer;
 }
 
-.topbartarkson1{
+.topbartarkson1 {
     position: absolute;
-    top:1%;
-    left:90px;
-    color:white;
+    top: 1%;
+    left: 90px;
+    color: white;
     font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
 }
-.topbartarkson2{
+
+.topbartarkson2 {
     position: absolute;
-    top:4.5%;
-    left:90px;
-    color:white;
+    top: 4.5%;
+    left: 90px;
+    color: white;
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
 }
 
-.hiddenBox{
+.hiddenBox {
     position: absolute;
     right: 0%;
     bottom: 0%;
     background-color: rgba(255, 255, 255, 0);
     width: 25%;
     height: 5%;
+}
+
+footer{
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    position: absolute;
+    bottom:0%;
+    color:rgba(255, 255, 255, 0.2);
+    background-color: rgb(26, 25, 25);
+}
+
+@media screen and (max-width: 768px) {
+    .navBarContainer {
+        width: 100%;
+        height: auto;
+        top: 0;
+    }
+
+    .navBarButton,
+    .navBarButtonWIP {
+        font-size: 20px;
+        height: auto;
+    }
+
+    .mainBody {
+        width: 100%;
+        height: auto;
+        background-size: contain;
+    }
+
+    .infoBox {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    table {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    th {
+        width: auto;
+        font-size: 18px;
+    }
+
+    .topbarimage {
+        width: 50px;
+        height: 50px;
+    }
+
+    .topbartarkson1 {
+        font-size: 20px;
+        left: 60px;
+    }
+
+    .topbartarkson2 {
+        font-size: 16px;
+        left: 60px;
+    }
+
+    .hiddenBox {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navBarButton,
+    .navBarButtonWIP {
+        font-size: 16px;
+        padding: 10px;
+        padding: 45px;
+        
+    }
+    .topNavBar {
+        background-color: rgb(26, 25, 25);
+        height: 100px;
+    }
+
+    .topbartarkson1 {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .topbartarkson2 {
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    table {
+        font-size: 16px;
+    }
+
+    th {
+        font-size: 14px;
+    }
 }

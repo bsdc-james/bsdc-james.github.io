@@ -3,6 +3,9 @@ body{
     padding-top: 0px;
     padding-bottom: 0px;
     margin: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .topNavBar{
@@ -51,29 +54,6 @@ body{
     bottom: 40%;
     text-align: center;
     line-height: 75px;
-}
-
-.mainBody{
-    position: absolute;
-    height: 92%;
-    width: 68%;
-    background: url(/media/SSAgent.png);
-    background-repeat: no-repeat;
-    background-size:cover;
-}
-
-.mainbodyimage{
-    width:50%;
-    height:50%;
-}
-
-.infoBox{
-    position: absolute;
-    width: 32%;
-    height: 90%;
-    right: 0%;
-    color:white;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 table {
@@ -125,11 +105,61 @@ th:hover{
     font-family: 'Courier New', Courier, monospace;
 }
 
-.hiddenBox{
+.breakS{
+    height: 25px;
+}
+.breakM{
+    height: 50px;
+}
+.breakL{
+    height: 100px;
+}
+
+.infoBody{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    color: white;
+    background-color: rgb(26, 25, 25);
+    border: 1px rgb(97, 96, 96) solid;
+    width: 40%;
+}
+
+.product{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    color: white;
+    background-color: rgb(26, 25, 25);
+    border: 1px rgb(97, 96, 96) solid;
+    width: 40%;
+    transition: 0.25s;
+}
+
+.product:hover{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    color: white;
+    background-color: rgb(97, 96, 96);
+    border: 1px rgb(97, 96, 96) solid;
+    width: 40%;
+}
+
+footer{
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
     position: absolute;
-    right: 0%;
-    bottom: 0%;
-    background-color: rgba(255, 255, 255, 0);
-    width: 25%;
-    height: 5%;
+    bottom:0%;
+    color:rgba(255, 255, 255, 0.2);
+    background-color: rgb(26, 25, 25);
+}
+
+.footerselection{
+    color:rgba(255, 255, 255, 0.2);
+    transition: 0.2s;
+}
+
+.footerselection:hover{
+    color:rgba(255, 255, 255, 0.5);
 }
