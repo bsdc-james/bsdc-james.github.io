@@ -115,6 +115,20 @@ th:hover{
     height: 100px;
 }
 
+.mainBody{
+    background-color: rgb(26, 25, 25);
+    border: 1px rgb(97, 96, 96) solid;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 73%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+    padding-bottom: 10px;
+    text-align: center;
+    color: white;
+}
+
 .infoBody{
     font-family: 'Courier New', Courier, monospace;
     padding: 10px;
@@ -127,6 +141,8 @@ th:hover{
 .product{
     font-family: 'Courier New', Courier, monospace;
     padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
     color: white;
     background-color: rgb(26, 25, 25);
     border: 1px rgb(97, 96, 96) solid;

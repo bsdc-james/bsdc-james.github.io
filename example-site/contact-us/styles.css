@@ -53,6 +53,9 @@ body{
     line-height: 75px;
 }
 
+.breakXS{
+    height: 10px;
+}
 .breakS{
     height: 25px;
 }
@@ -64,17 +67,108 @@ body{
 }
 
 .mainBody{
-    width: 75%;
+    background-color: rgb(26, 25, 25);
+    border: 1px rgb(97, 96, 96) solid;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 73%;
     margin-left: auto;
     margin-right: auto;
+    padding: 1%;
+    padding-bottom: 10px;
     text-align: center;
     color: white;
-    background-color: blue;
 }
 
-.mainbodyimage{
-    width:50%;
-    height:50%;
+.contactFormInputShort{
+    background-color: rgb(44, 43, 43);
+    border: 1px rgb(97, 96, 96) solid;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    width: 58%;
+    padding-left: 1%;
+    padding-top: 0.25%;
+    padding-bottom: 0.25%;
+    padding-right: 1%;
+    text-align: center;
+    transition: 0.25s;
+}
+
+.contactFormInputShort:invalid{
+    background-color: rgb(49, 35, 35);
+    border: 1px rgb(97, 96, 96) solid;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    width: 58%;
+    padding-left: 1%;
+    padding-top: 0.25%;
+    padding-bottom: 0.25%;
+    padding-right: 1%;
+    text-align: center;
+}
+
+.contactFormInputLong{
+    background-color: rgb(46, 38, 38);
+    border: 1px rgb(97, 96, 96) solid;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    width: 58%;
+    min-width: 58%;
+    max-width: 58%;
+    min-height: 100px;
+    max-height: 250px;
+    height: 100px;
+    padding-left: 1%;
+    padding-top: 0.25%;
+    padding-bottom: 0.25%;
+    padding-right: 1%;
+    text-align: center;
+    transition: 0.25s;
+}
+
+.contactFormInputLong:invalid{
+    background-color: rgb(49, 35, 35);
+    border: 1px rgb(97, 96, 96) solid;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    width: 58%;
+    min-width: 58%;
+    max-width: 58%;
+    min-height: 100px;
+    max-height: 250px;
+    height: 100px;
+    padding-left: 1%;
+    padding-top: 0.25%;
+    padding-bottom: 0.25%;
+    padding-right: 1%;
+    text-align: center;
+}
+
+.contactFormSubmit{
+    background-color: rgb(44, 43, 43);
+    border: 1px rgb(97, 96, 96) solid;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    width: 13%;
+    padding-left: 1%;
+    padding-top: 0.25%;
+    padding-bottom: 0.25%;
+    padding-right: 1%;
+    text-align: center;
+    transition: 0.25s;
+}
+
+.contactFormSubmit:hover{
+    background-color: rgb(61, 58, 58);
+    border: 1px rgb(97, 96, 96) solid;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    width: 13%;
+    padding-left: 1%;
+    padding-top: 0.25%;
+    padding-bottom: 0.25%;
+    padding-right: 1%;
+    text-align: center;
 }
 
 .infoBox{
