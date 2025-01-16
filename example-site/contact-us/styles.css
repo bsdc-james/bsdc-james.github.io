@@ -53,13 +53,23 @@ body{
     line-height: 75px;
 }
 
+.breakS{
+    height: 25px;
+}
+.breakM{
+    height: 50px;
+}
+.breakL{
+    height: 100px;
+}
+
 .mainBody{
-    position: absolute;
-    height: 92%;
-    width: 68%;
-    background: url(/media/SSAgent.png);
-    background-repeat: no-repeat;
-    background-size:cover;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    background-color: blue;
 }
 
 .mainbodyimage{
